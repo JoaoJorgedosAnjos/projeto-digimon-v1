@@ -5,9 +5,9 @@ Esse trabalho também é muito importante pois foi a primeira ideia que eu tive 
 <img src="./src/gif/gif.gif" alt="imagem do projeto">
 
 ## Tecnologias utilizadas 
--HTML
--CSS
--Javascript
+- HTML
+- CSS
+- Javascript
 
 ##Dificuldades no projeto
 -Estilizar duas divs simultaneamente utilizando o grid
