@@ -1,0 +1,181 @@
+body {
+    background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.seta-voltar{
+    transform:rotateY(180deg) ;
+}
+
+.opacidade{
+    opacity: 0.6;
+    cursor: default;
+}
+.digimon-slider {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+
+}
+
+.lista-digimons {
+    width: 90rem;
+    height: 75rem;
+    position: relative;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: "digivice digimon";
+    gap: 80px;
+
+}
+
+.digivice {
+    grid-area: digivice;
+    position: relative;
+    height: 75rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.digivice .digimon-px {
+    position: absolute;
+    bottom: 33.5rem;
+    left: 6.5rem;
+}
+
+.digivice .digimon-px img {
+    width: 20rem;
+}
+
+.digivice .digimon-px.agumon img {
+    width: 15rem;
+    margin-left: 2rem;
+}
+.digivice .digimon-px.greymon img {
+    width: 13rem;
+    margin-left: 3.2rem;
+    margin-bottom: -8px;
+}
+.digivice .digimon-px.metalgreymon img {
+    width: 11.5rem;
+    margin-left: 3.9rem;
+    margin-bottom: -6px;
+}
+.digivice .digimon-px.wargreymon img {
+    width: 11rem;
+    margin-left: 4.1rem;
+    margin-bottom: -8px;
+}
+
+.digimon {
+    grid-area: digimon;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-image: url(../images/Crest-of-Courage.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 0vw bottom 0vh ;
+
+
+}
+.digimon .infos{
+    padding: 0 3rem;
+       
+}
+
+.digimon .background-card{
+    width: 50rem;
+    height: 45rem;
+}
+
+
+.lista-digimons .botamon img {
+    width: 50rem;
+}
+.lista-digimons .koromon img {
+    width: 45rem;
+    margin-left: 5rem;
+    margin-top: 6rem;
+}
+.lista-digimons .agumon img {
+    width: 48rem;
+    margin-left: 2rem;
+}
+
+.lista-digimons .greymon img {
+    width: 45rem;
+    margin-left: 4rem;
+}
+.lista-digimons .metalgreymon img {
+    width: 48rem;
+    margin-left: 2rem;
+}
+.lista-digimons .omega img {
+    width: 34rem;
+    margin-left: 10rem;
+}
+.cartao{
+    opacity: 0;
+    height: 100%;
+    position: absolute;
+    transition: opacity 0.3s ease-in-out;
+    
+    
+}
+.cartao.selecionado{
+    opacity: 1;
+    z-index: 1;
+}
+.cartao .infos{
+    background-color:rgba(10, 12, 04, 0.4);
+    color: rgb(255, 255,255);
+    padding: 1.5rem;
+    width: 48rem;
+    border-radius: 10px;
+}
+.cartao .infos.info-war{
+     padding: 0rem 1.4rem;
+    
+}
+.cartao .infos .nome{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+   
+}
+
+.cartao .infos .tipo{
+    font-size: 2rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    
+}
+.cartao .infos .tipo.greymon{
+    font-size: 1.9rem;    
+}
+
+.cartao .infos .tipo .nomenclatura{
+    font-weight: 700;
+    font-size: 2.5;
+
+}
+.cartao .infos .descricao{
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.5em;
+}

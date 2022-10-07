@@ -1,0 +1,146 @@
+@media(max-width:1150px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        
+       
+    }
+
+    .digimon-slider {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        margin-top: 5rem;
+
+    }
+
+    .digimon {
+        background-size: contain;
+        background-position: top;
+    }
+
+    .lista-digimons {
+        width: 32em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 0;
+        height: 100%;
+        width: 30rem;
+
+    }
+
+    .cartao .digivice {
+        width: 15rem;
+    }
+
+    .digivice .digimon-px img {
+        width: 10rem;
+        margin-bottom: -28rem;
+        margin-left: -4rem;
+    }
+
+    .cartao .digimon {
+        height: 60rem;
+        flex-direction: column;
+        background-size: cover;
+    }
+
+    .digimon .background-card {
+        width: 30rem;
+        height: 25rem;
+
+    }
+
+    .lista-digimons .botamon img {
+        width: 30rem;
+    }
+    .lista-digimons .koromon img {
+        width: 25rem;
+        margin-top: 2rem;
+    }
+    .lista-digimons .agumon img {
+        width: 25rem;
+        
+    }
+    .lista-digimons .greymon img {
+        width: 25rem;
+        
+    }
+    .lista-digimons .metalgreymon img {
+        width: 27rem;
+        
+    }
+    .lista-digimons .omega img {
+        width: 22rem;
+        margin-left: 5rem;
+        
+    }
+    .digivice .digimon-px.agumon img {
+        width: 8rem;
+        margin-bottom: -28.5rem;;
+        margin-left: -3rem;
+    }
+    .digivice .digimon-px.greymon img {
+        width: 6.5rem;
+        margin-bottom: -28.5rem;;
+        margin-left: -2rem;
+    }
+    .digivice .digimon-px.metalgreymon img {
+        width: 6.5rem;
+        margin-bottom: -28.5rem;;
+        margin-left: -2rem;
+    }
+    .digivice .digimon-px.wargreymon img {
+        width: 6rem;
+        margin-bottom: -28.5rem;;
+        margin-left: -2rem;
+    }
+    .digivice .digimon-px.omegamon img {
+        width: 6rem;
+        margin-bottom: -28.5rem;;
+        margin-left: -2rem;
+    }
+
+    .digimon .infos {
+        height: 35rem;
+        width: 30rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .digivice img {
+        width: 15rem;
+    }
+
+
+}
+@media(max-width:550px){
+    .digimon-slider{
+        position: relative;
+    }
+    .seta-avancar{
+        position: absolute;
+        right: 2%;
+    }
+    .seta-voltar{
+        position: absolute;
+        left: 2%;
+
+    }
+    .seta-voltar img, .seta-avancar img{
+        width: 20px ;
+        
+    }
+}
