@@ -10,7 +10,7 @@ Esse trabalho também é muito importante pois foi a primeira ideia que eu tive 
 - Javascript
 
 ##Dificuldades no projeto
--Estilizar duas divs simultaneamente utilizando o grid
+- Estilizar duas divs simultaneamente utilizando o grid
 - Dificuldade de deixar o projeto responsivo 
--Estilizar o projeto usando o JS
+- Estilizar o projeto usando o JS
 - Lógica e programação no JS 
